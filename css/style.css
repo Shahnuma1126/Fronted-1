@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+/*COMMON CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/*COMMON CSS*/
+header hr {
+    opacity: 0.3;
+    background-color: hsl(219, 9%, 45%);
+}
+
+header nav {
+    margin-bottom: -35px;
+    margin-top: -30px;
+
+
+}
+
+header nav .logo {
+    cursor: pointer;
+    margin: 10px 55px 0px 0px;
+}
+
+header nav .menu li {
+    height: 50px;
+    margin-top: 70px;
+}
+
+header nav .menu li:hover {
+    border-bottom: 4px solid hsl(0, 0%, 0%);
+}
+
+header nav .menu li a {
+    color:grey;
+}
+
+header nav .cart {
+    margin-left: 200px;
+    position: relative;
+}
+
+header nav .cart li {
+    margin-right: 60px;
+}
+
+header nav .cart span img {
+    width: 50px;
+    height: 50px;
+    transition: 0.5ms;
+}
+
+header nav .cart span img:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid hsl(26, 100%, 55%);
+}
+
+header nav ul li {
+    margin: 30px 30px 35px 0px;
+}
+
+header nav ul li div a {
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+header nav ul li div p {
+    display: inline-block;
+    margin: 50px 20px 50px 80px;
+}
+
+header nav ul li div hr {
+    opacity: 1;
+}
+
+#img .container .pic {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#img .pic .shoes {
+    width: 45%;
+    height: 90vh;
+    padding: 20px;
+}
+
+#img .pic .shoes .upper-img img {
+    width: 350px;
+    height: 370px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+#img .pic .shoes .lower-img img {
+    width: 80px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+#img .pic .shoes .lower-img {
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#img .pic .info {
+    width: 55%;
+    height: 90vh;
+    padding: 80px 20px;
+}
+
+#img .pic .info h5 {
+    color: rgb(255, 177, 31);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#img .pic .info h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#img .pic .info p {
+    font-size: 15px;
+    color: hsl(0, 0%, 8%);
+    margin-bottom: 20px;
+    line-height: 25px;
+
+}
+
+#img .pic .info h2 {
+    margin-bottom: 10px;
+}
+
+#img .pic .info h2 span {
+    font-size: 18px;
+    background-color: rgb(246, 225, 229);
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    color: orange;
+    display: inline-block;
+}
+
+#img .pic .info .calc {
+    gap: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(223, 223, 243);
+    border-radius: 5px;
+    justify-content: center;
+    color: orange;
+    font-size: 30px;
+
+}
+
+#img .pic .info button {
+    height: 48px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: orange;
+    color: #ffffff;
+    margin-left: 20px;
+    border: none;
+    line-height: 45px;
+
+}
+.o{
+    color: black;
+     margin-top: 18px;
+}
+.info .num{
+    text-decoration: line-through;
+    
+}
